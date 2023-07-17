@@ -21,6 +21,7 @@ exports.getItems = async (req, res) => {
   }
 };
 
+
 exports.getItemById = async (req, res) => {
   try {
     const item = await Item.findById(req.params.id);
