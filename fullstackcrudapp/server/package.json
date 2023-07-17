@@ -1,16 +1,24 @@
 {
-  "name": "server",
+  "name": "fullstackcrudapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "server": "nodemon server.js",
+    "build": "echo \"No build specified\" && exit 1",
     "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+            "type": "git",
+           "url": "git+https://github.com/Akashwakade/fullstackcrudapp.git"
+        },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+            "url": "https://github.com/Akashwakade/fullstackcrudapp/issues"
+       },
   "dependencies": {
     "bcrypt": "^5.1.0",
     "dotenv": "^16.3.1",
@@ -18,5 +26,10 @@
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.3.4",
     "nodemon": "^3.0.1"
-  }
+  },
+  "homepage": "https://github.com/Akashwakade/fullstackcrudapp#readme"
 }
+
+
+
+
